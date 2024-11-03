@@ -1,0 +1,37 @@
+{
+  "product_card": {
+    "energetic": "Klasa energetyczna",
+    "functions": "Funkcje",
+    "dimensions": "Wymiary (GxSxW)",
+    "capacity": "Pojemność (kg)",
+    "price_time": "Cena obowiązuje: ",
+    "currency": "zł",
+    "loan_info": "zł x ",
+    "choose": "Wybierz",
+    "choossen": "Wybrane", 
+    "installment": " rat"
+  },
+  "title": "Wybierz urządzenie",
+  "filters": {
+    "energetic": "Klasa energetyczna",
+    "functions": "Funkcje",
+    "dimensions": "Wymiary",
+    "capacity": "Pojemność",
+    "all": "Wszystkie",
+    "sort": "Sortuj po:",
+    "price": "Cena",
+    "option1": "Panel AI Control",
+    "option2": "Drzwi AddWash",
+    "option3": "Silnik inwerterowy",
+    "option4": "Wyświetlacz elektroniczny",
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "kg8": "8kg",
+    "kg9": "9kg",
+    "kg10": "10,5kg"
+  },
+  "lisitng": "Liczba wyników: ",
+  "load_more": "Pokaż więcej",
+  "empty": "Przpepraszamy ale nie mamy produktów spełniających Państwa wymagania, proszę zmienić filtry"
+}
