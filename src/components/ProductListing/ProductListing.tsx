@@ -65,7 +65,7 @@ const ProductListing: React.FC<ProductListingProps> = ({ products }) => {
   return (
     <ListingWrapper>
       <AllProducts>
-        {content.lisitng} {sortedProducts.length}
+        {content.lisitng} {productCount > sortedProducts.length ? sortedProducts.length : productCount}
       </AllProducts>
       <ProductsWrapper>
         {sortedProducts.length === 0 ? (

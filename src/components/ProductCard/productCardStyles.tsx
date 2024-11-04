@@ -13,6 +13,7 @@ export const CardWrapper = styled.div`
   margin: 10px 0;
   display: flex;
   flex-direction: column;
+  position: relative;
 `;
 
 export const ProductImg = styled.img`
@@ -104,7 +105,6 @@ export const ButtonElement = styled.button<ButtonProps>`
   height: 36px;
   padding: 14px 40px;
   border-radius: 24px;
-  margin: 25px auto;
   border: none;
   color: ${({theme}) => theme.colors.white};
   background-color: ${(props) => props.$active ? props.theme.colors.active : props.theme.colors.dark};
@@ -117,4 +117,7 @@ export const ButtonElement = styled.button<ButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 25px;
+  left: calc(50% - 75px);
 `;

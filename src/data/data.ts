@@ -11,7 +11,7 @@ export const data: Product[]  = [
     'functions': ['Drzwi AddWash™', 'Panel AI Control', 'Silnik inwerterowy', 'Wyświetlacz elektroniczny'],
     'energetic_class': 'A',
     'price': '3199.00',
-    'installment': 60,
+    'installment': 0,
     'time_price': "15.09.2022 - 21.09.2022",
     'img': img1
   },
@@ -108,6 +108,30 @@ export const data: Product[]  = [
     'energetic_class': 'C',
     'price': '3199.99',
     'installment': 60,
+    'time_price': "15.09.2022 - 21.09.2022",
+    'img': img1
+  },
+  {
+    'id': '10',
+    'name': 'WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała',
+    'capacity': "10,5",
+    'dimensions': "55 x 60 x 85 cm",
+    'functions': ['Drzwi AddWash™', 'Panel AI Control', 'Wyświetlacz elektroniczny'],
+    'energetic_class': 'B',
+    'price': '5199.99',
+    'installment': 60,
+    'time_price': "15.09.2022 - 21.09.2022",
+    'img': img2
+  },
+  {
+    'id': '11',
+    'name': 'WW90T654DLH, Pralka EcoBubble™, 8 kg, biała',
+    'capacity': "8",
+    'dimensions': "55 x 60 x 85 cm",
+    'functions': ['Panel AI Control', 'Silnik inwerterowy', 'Wyświetlacz elektroniczny'],
+    'energetic_class': 'C',
+    'price': '3199.99',
+    'installment': 30,
     'time_price': "15.09.2022 - 21.09.2022",
     'img': img1
   },

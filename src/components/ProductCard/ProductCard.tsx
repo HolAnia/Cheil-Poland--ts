@@ -73,12 +73,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <CurrencyElement>{content.product_card.currency}</CurrencyElement>
         </CurrencyWrapper>
       </PriceWrapper>
-      <LoanElement>
+      { product.installment > 1 &&
+        <LoanElement>
         {Math.round((parseFloat(product.price) / product.installment) * 100) / 100}
         {content.product_card.loan_info}
         {product.installment}
         {content.product_card.installment}
-      </LoanElement>
+        </LoanElement>
+      }
       <ButtonElement onClick={handleBtnClick} $active={btnActive}>
         {btnActive ? content.product_card.choose : content.product_card.choossen}
       </ButtonElement>
