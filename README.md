@@ -8,7 +8,7 @@ This application has following functionality:
 - sorting products by price and capacity of the products
 - filtering products by functionality, energetic class and capacity.
 
-Layout for the app was provided in Figma [File].
+Layout for the app was provided in Figma file.
 
 ## Technologies used
 
